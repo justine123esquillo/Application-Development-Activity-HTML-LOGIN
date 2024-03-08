@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url('pic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: rgb(247, 170, 56);
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 7px;
+
+}
+
+button{
+    background-color: rgb(165, 68, 12);
+    
+}
